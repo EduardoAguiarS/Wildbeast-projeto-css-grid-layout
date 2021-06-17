@@ -21,6 +21,8 @@ body {
 img {
     max-width: 100%;
     border-radius: 5px;
+    width: 100%;
+    display: block;
 }
 
 p {
@@ -123,7 +125,7 @@ p {
 }
 
 .wolf-1, .wolf-2 {
-    align-self: flex-end;
+    align-self: end;
 }
 
 .informacoes p + p{
@@ -189,6 +191,7 @@ p {
     max-width: 16em;
 }
 
+/* Citação */
 .citacao {
     text-align: center;
 }
@@ -197,17 +200,30 @@ p {
     color: #fff;
     max-width: 600px;
     font-size: 24px;
-    display: block;
     margin: 0 auto;
     line-height: 1.5;
+    font-style: italic;
 }
 
 .citacao, .atributos {
     padding: 30px;
+    align-self: start;
     border-radius: 5px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
     background: linear-gradient(135deg, #84e, #b07dfb);
-    color: #fff;
+}
+
+/* Atributos */
+.atributos li {
+    color: white;
+    font-family: Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.atributos li + li {
+    border-top: #b07dfb 2px solid;
 }
 
 /* Anuncios */
