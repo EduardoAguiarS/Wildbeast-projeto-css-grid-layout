@@ -75,6 +75,25 @@ img {
 /* Sidenav */
 .sidenav {
     grid-area: sidenav;
+    background: #fafbfc;
+    padding: 30px;
+}
+
+.sidenav li a{
+    display: block;
+    min-width: 60px;
+    max-width: 140px;
+    border-radius: 5px;
+    margin: 0 auto 30px auto;
+    background: #fff;
+    transition: all .2s ease;
+    padding: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav li a:hover {
+    background: #b07dfb;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Conteudo */
