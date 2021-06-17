@@ -182,6 +182,34 @@ p {
     top: 2px;
 }
 
+/* Destaque */
+.destaque {
+    font-size: 14px;
+    color: #b07dfb;
+    max-width: 16em;
+}
+
+.citacao {
+    text-align: center;
+}
+
+.citacao p {
+    color: #fff;
+    max-width: 600px;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.citacao, .atributos {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #84e, #b07dfb);
+    color: #fff;
+}
+
 /* Anuncios */
 .anuncios {
     grid-area: anuncios;
