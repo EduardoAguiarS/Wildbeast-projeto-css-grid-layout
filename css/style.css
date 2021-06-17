@@ -20,6 +20,13 @@ body {
 
 img {
     max-width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /* Grid */
@@ -99,8 +106,46 @@ img {
 
 /* Conteudo */
 .content {
+    max-width: 900px;
     grid-area: content;
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
 }
+
+.col-wide {
+    grid-column: 1 / -1;
+}
+
+.row-2 {
+    grid-row: span 2;
+}
+
+.wolf-1, .wolf-2 {
+    align-self: flex-end;
+}
+
+.informacoes p + p{
+    margin-top: 30px;
+}
+
+.titulo {
+    color: #b07dfb;
+}
+
+.titulo h1 {
+    font-size: 56px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.titulo span {
+    font-style: italic;
+}
+
+
 
 /* Anuncios */
 .anuncios {
