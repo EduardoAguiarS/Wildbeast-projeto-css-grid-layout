@@ -178,6 +178,8 @@ p {
     border-radius: 0 0 5px 5px;
     color: #b07dfb;
     padding: 5px 0;
+    position: relative;
+    top: 2px;
 }
 
 /* Anuncios */
