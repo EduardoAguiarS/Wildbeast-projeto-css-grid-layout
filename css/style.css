@@ -126,10 +126,14 @@ p {
     padding: 30px;
 }
 
+.sidenav img {
+    min-width: 60px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
 .sidenav li a {
     display: block;
-    min-width: 60px;
-    max-width: 140px;
     border-radius: 5px;
     margin: 0 auto 30px auto;
     background: #fff;
@@ -180,7 +184,7 @@ p {
     }
 
     .sidenav ul li a {
-        margin: 30px 10px 30px 0;
+        margin: 30px 20px 30px 0;
     }
 }
 
