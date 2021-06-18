@@ -89,11 +89,11 @@ p {
     margin-left: 30px;
 }
 
-.menu ul a {
+.menu ul li a {
     display: block;
     padding: 15px 10px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -112,7 +112,11 @@ p {
     }
 
     .menu ul {
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    .menu li + li {
+        margin-left: 10px;
     }
 }
 
